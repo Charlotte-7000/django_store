@@ -1,6 +1,29 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <h1>Welcome Home</h1>
-    <h2>Bryan Charlotte Núñez Gómez</h2>
+
+    <div class="p-5 mb-4 bg-white rounded-3 shadow-sm border">
+        <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold text-primary">Welcome Home</h1>
+            <h2 class="col-md-8 fs-4">Bryan Charlotte Núñez Gómez</h2>
+            <p class="mt-3">Este es el examen práctico de Aplicaciones Web utilizando Django</p>
+            <button class="btn btn-primary btn-lg" type="button">Ver Productos</button>
+        </div>
+    </div>
+
+
+    <div class="row align-items-md-stretch">
+        <div class="col-md-6">
+            <div class="h-100 p-5 text-white bg-dark rounded-3">
+                <h2>Backend con Django</h2>
+                <p>Configuración robusta de vistas, urls y templates.</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="h-100 p-5 bg-light border rounded-3">
+                <h2>Frontend con Bootstrap</h2>
+                <p>Estilos responsivos y modernos integrados en base.html.</p>
+            </div>
+        </div>
+    </div>
 {% endblock %}

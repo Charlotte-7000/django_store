@@ -1,6 +1,18 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    text-align: center;
+    background-color: #f8f9fa; /* Un gris muy suave */
 }
-h1 { color: #2c3e50; }
+
+h1 {
+    font-weight: 700;
+}
+
+/* Efecto suave para las tarjetas */
+.card {
+    transition: transform 0.2s;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
